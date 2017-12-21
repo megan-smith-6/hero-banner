@@ -6,3 +6,49 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h2 {
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  bottom: 1em;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+  transform: translateX(-50%);
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  max-width: 50em;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.banner-content {
+  position: absolute;
+  left: 50%;
+  bottom: 1em;
+  width: 100%;
+}
+
+.banner-content h2,
+.banner-content p {
+  margin: 0;
+}
